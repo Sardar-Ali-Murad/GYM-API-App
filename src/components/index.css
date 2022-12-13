@@ -1,0 +1,153 @@
+.section1{
+    padding: 2rem 7%;
+    /* position: relative; */
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column */
+}
+
+.homeimage img{
+    width: 300px;
+    margin-left:200px
+}
+nav a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer
+}
+
+nav .home{
+    text-decoration: underline red;
+    color: black
+}
+
+nav a:hover{
+    color: blue
+}
+
+.homesecond{
+    /* position: absolute; */
+    margin-top: 70px;
+    margin-bottom: 30px
+    }
+
+.homepara{
+    font-size: 20px;
+    color: blue
+}
+.homesecond p{
+  margin-top: 20px
+}
+
+
+.head{
+    text-align: center;
+    font-size:25px;
+    margin-top: 50px;
+    margin-bottom: 50px
+    /* width: 50px */
+}
+
+
+/* there goes the section2 */
+
+
+.section2{
+    padding: 2rem 7%
+}
+.search input{
+    width: 70%;
+    padding: 5px 4px;
+    margin-top: 5px;
+    margin-right: 10px;
+    /* border-radius: 2px */
+}
+
+
+
+.search button{
+    margin-bottom: 5px
+}
+
+
+
+
+
+.bodyparts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: red;
+    font-size: 17px;
+    cursor: pointer
+}
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap:2rem
+}
+
+
+.singlecard{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    text-align: center
+}
+
+.singlecard button{
+    margin-left: 10px
+}
+
+.bodyparts{
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.img{
+    height:  300px;
+    width: 300px
+}
+
+
+@media screen and (max-width: 770px) {
+  .section1{
+      flex-direction: column
+  }
+  .homeimage img{
+      width: 79%;
+      margin-left: 0;
+      height: 300px
+  }
+  
+}
+
+
+
+.part__Exercises{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+    gap: 1.2rem;
+}
+
+.details__Front{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.details__Front .image img{
+    margin-bottom: 100px;
+}
+
+.youtube__Vedios{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+    gap: 2rem;
+    padding: 1.4rem 4%;
+
+}
